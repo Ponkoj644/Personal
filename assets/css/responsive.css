@@ -1,0 +1,78 @@
+@media (max-width: 991px) {
+  /* Header area */
+  .header-area .navbar .navbar-toggler {
+    box-shadow: none;
+    border: none;
+    background-color: #ef6d58;
+  }
+
+  .header-area .nav-item {
+    margin: 0;
+    text-align: center;
+  }
+  .header-area .navbar-nav .nav-item:last-child {
+    margin-top: 10px;
+  }
+  .header-area .navbar-nav .nav-item:last-child a {
+    display: inline-block;
+  }
+
+  /* Hero area */
+  .hero-text {
+    align-items: center;
+  }
+  .hero-text h2 {
+    font-size: 50px;
+  }
+  .hero-img {
+    margin-top: 30px;
+  }
+
+  /* Service area */
+
+  .service-area .section-heading {
+    text-align: center;
+  }
+
+  .service-two {
+    border-radius: 0px 6px 6px 0px;
+    border: 1px solid #f3d1bf;
+    margin-top: 20px;
+  }
+
+  /* Contact section */
+  .contact-text {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero-text h2 {
+    font-size: 44px;
+    text-align: center;
+    line-height: 65px;
+  }
+  .hero-text p {
+    text-align: center;
+  }
+  .service-area .section-heading h2 {
+    font-size: 40px;
+    line-height: 55px;
+  }
+}
+@media (max-width: 500px) {
+  .hero-text h2 {
+    font-size: 35px;
+    /* text-align: center; */
+    line-height: 50px;
+  }
+  .service-area .section-heading h2 {
+    font-size: 35px;
+  }
+
+  .contact-text .section-heading h2 {
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 55px;
+  }
+}

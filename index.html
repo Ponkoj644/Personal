@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home | Personal</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="assets/css/all.min.css" />
+    <!-- Bootstrapt CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+
+    <!-- Email Js Script -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("QVHtjkDXeb1h_XzvC");
+      })();
+    </script>
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- responsive -->
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+  </head>
+  <body>
+    <!-- Header area start -->
+    <header class="header-area">
+      <!-- Navber start -->
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="assets/images/logo.png" alt="" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >about</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Navber end -->
+    </header>
+    <!-- Header area end -->
+
+    <!-- Main area start -->
+    <main class="main-area">
+      <!-- Hero area start -->
+      <section class="hero-area d-flex align-items-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5">
+              <div class="hero-text">
+                <h3>Gabrial Pires</h3>
+                <h2>The simple, clean design</h2>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Vitae dolore iste hic.
+                </p>
+                <a href="#">see my work</a>
+              </div>
+            </div>
+            <div class="col-lg-6 offset-lg-1">
+              <div class="hero-img">
+                <img src="assets/images/hero-img.png" alt="" class="w-100" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Hero area end -->
+
+      <!-- Service area start -->
+      <section class="service-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 offset-lg-2">
+              <div class="section-heading text-center">
+                <h3>Service</h3>
+                <h2>How I Can Help You With</h2>
+              </div>
+            </div>
+          </div>
+          <div class="row gx-0">
+            <div class="col-lg-6">
+              <div class="single-service service-one">
+                <div class="service-heading">
+                  <i class="fa-solid fa-laptop"></i>
+                  <h3>Design</h3>
+                </div>
+                <div class="service-text">
+                  <p>
+                    Agency is a business you hire to outsource your digital
+                    marketing efforts, instead of handling in-house.
+                  </p>
+                  <a href="#">Learn More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="single-service service-two">
+                <div class="service-heading">
+                  <i class="fa-solid fa-briefcase"></i>
+                  <h3>Development</h3>
+                </div>
+                <div class="service-text">
+                  <p>
+                    Hire to outsource your digital marketing efforts, instead of
+                    handling in-house can provide your business.
+                  </p>
+                  <a href="#">Learn More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Service area end -->
+
+      <!-- Contact area start -->
+      <section class="contact-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="contact-form">
+                <h3>Get In Touch</h3>
+                <input
+                  type="text"
+                  id="contactName"
+                  placeholder="Full Name"
+                  class="form-control mb-3"
+                />
+                <input
+                  type="email"
+                  id="contactEmail"
+                  placeholder="Email Addres"
+                  class="form-control mb-3"
+                />
+                <textarea
+                  id="contactMessage"
+                  rows="5"
+                  class="form-control mb-3"
+                  placeholder="Message"
+                ></textarea>
+                <button type="button " class="btn ms-auto" id="submitButton">
+                  Submit Now
+                </button>
+                <!-- Error message Div -->
+                <div id="error-div"></div>
+                <!-- Error message Div -->
+              </div>
+            </div>
+            <!-- Contact Text -->
+            <div class="col-lg-5 offset-lg-1 d-flex align-items-center">
+              <div class="contact-text">
+                <div class="section-heading">
+                  <h3>Contact</h3>
+                  <h2 class="text-white">Contact Me</h2>
+                  <p>
+                    A digital agency is a business you hire to outsource your
+                    digital marketing efforts, instead of handling in-house.
+                  </p>
+                  <ul>
+                    <li>
+                      <i class="fa-solid fa-briefcase"></i>
+                      <a href="#">2247 Lunetta Street, TX 76301</a>
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-briefcase"></i>
+                      <a href="tel:+1 (234) 567-89-00">+1 (234) 567-89-00</a>
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-briefcase"></i>
+                      <a href="mailto:info@agency.com">info@agency.com</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Contact area end -->
+    </main>
+    <!-- Main area end -->
+
+    <!-- Footer area start -->
+    <footer class="footer-area text-center">
+      <div class="container">
+        <p>Copyright © 2022 Laaqiq. All Rights Reserved.</p>
+      </div>
+    </footer>
+    <!-- Footer area end -->
+
+    <!-- Footer area start -->
+    <!-- Footer area end -->
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
